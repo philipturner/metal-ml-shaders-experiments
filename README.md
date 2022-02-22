@@ -1,3 +1,3 @@
-# DL4Sv1
+# Metal ML Shaders Experiments
 
 A description of this package.
