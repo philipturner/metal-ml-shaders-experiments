@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"DL4SExperiments::DL4SExperimentsPackageTests::ProductTarget" /* DL4SExperimentsPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_74 /* Build configuration list for PBXAggregateTarget "DL4SExperimentsPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_77 /* PBXTargetDependency */,
+			);
+			name = DL4SExperimentsPackageTests;
+			productName = DL4SExperimentsPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9849BAE4273F435D008F9EB9 /* SafeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9849BAE3273F435D008F9EB9 /* SafeModule.swift */; };
+		9849BAE7273FFBB1008F9EB9 /* SGEMV.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9849BAE6273FFBB1008F9EB9 /* SGEMV.metal */; };
+		9849BAF227404DFC008F9EB9 /* Activation.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9849BAF127404DFC008F9EB9 /* Activation.metal */; };
+		9849BAF427405D19008F9EB9 /* ActivationKernels.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9849BAF327405D19008F9EB9 /* ActivationKernels.metal */; };
+		985B2AED27503121003F1785 /* SGEMMSmall.metal in Sources */ = {isa = PBXBuildFile; fileRef = 985B2AEC27503121003F1785 /* SGEMMSmall.metal */; };
+		985B2B0327511467003F1785 /* SGEMMCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985B2B0227511467003F1785 /* SGEMMCustom.swift */; };
+		987CC857274EAB96006D80AC /* RandomTestPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987CC856274EAB96006D80AC /* RandomTestPermutation.swift */; };
+		98A53A2E274D81F30046C949 /* Conv.metal in Sources */ = {isa = PBXBuildFile; fileRef = 98A53A2D274D81F30046C949 /* Conv.metal */; };
+		98A53A30274D82300046C949 /* MMXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A53A2F274D822A0046C949 /* MMXTests.swift */; };
+		98A53A33274D82A60046C949 /* ConvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A53A32274D82A60046C949 /* ConvTests.swift */; };
+		98A53A34274D82AC0046C949 /* ActivationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A53A31274D826A0046C949 /* ActivationTests.swift */; };
+		98A53A3E274E634A0046C949 /* MMXResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A53A3D274E634A0046C949 /* MMXResources.swift */; };
+		98A53A40274E66800046C949 /* SGEMVCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A53A3F274E66800046C949 /* SGEMVCustom.swift */; };
+		98A53A42274E67240046C949 /* MMXApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A53A41274E67240046C949 /* MMXApple.swift */; };
+		98A53A44274E68C40046C949 /* MMXTestPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A53A43274E68C40046C949 /* MMXTestPermutation.swift */; };
+		98A53A46274E69050046C949 /* MMXFillBuffers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A53A45274E69050046C949 /* MMXFillBuffers.swift */; };
+		98A53A48274E6AF90046C949 /* ActivationResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A53A47274E6AF90046C949 /* ActivationResources.swift */; };
+		98C9B9552744322B008D40EF /* BFloat16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C9B9542744322B008D40EF /* BFloat16.swift */; };
+		98EEA624274E759D00FF7A6C /* Random.metal in Sources */ = {isa = PBXBuildFile; fileRef = 98EEA623274E759C00FF7A6C /* Random.metal */; };
+		98EEA626274E75D900FF7A6C /* SwiftRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEA625274E75D900FF7A6C /* SwiftRandom.swift */; };
+		98EEA628274E784500FF7A6C /* S4TF_Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEA627274E784500FF7A6C /* S4TF_Random.swift */; };
+		98EEA62A274E810000FF7A6C /* RandomResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEA629274E810000FF7A6C /* RandomResources.swift */; };
+		98EEA62B274E81B800FF7A6C /* RandomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A53A49274E6C090046C949 /* RandomTests.swift */; };
+		98EEA62D274E822B00FF7A6C /* RandomApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEA62C274E822B00FF7A6C /* RandomApple.swift */; };
+		98EEA62F274E840B00FF7A6C /* RandomResourcesFillBuffers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEA62E274E840B00FF7A6C /* RandomResourcesFillBuffers.swift */; };
+		98EEA631274E8A4F00FF7A6C /* RandomCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEA630274E8A4F00FF7A6C /* RandomCustom.swift */; };
+		OBJ_41 /* ARHeadsetUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* ARHeadsetUtil.swift */; };
+		OBJ_42 /* CoreTextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* CoreTextExtensions.swift */; };
+		OBJ_43 /* DebuggingUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* DebuggingUtilities.swift */; };
+		OBJ_44 /* MemoryUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* MemoryUtilities.swift */; };
+		OBJ_45 /* CoreVideoExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* CoreVideoExtensions.swift */; };
+		OBJ_46 /* MTLLayeredBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* MTLLayeredBuffer.swift */; };
+		OBJ_47 /* MetalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* MetalExtensions.swift */; };
+		OBJ_48 /* SwiftUIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* SwiftUIExtensions.swift */; };
+		OBJ_49 /* MathUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* MathUtilities.swift */; };
+		OBJ_50 /* simdExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* simdExtensions.swift */; };
+		OBJ_57 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Package.swift */; };
+		OBJ_63 /* DL4SExperiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* DL4SExperiments.swift */; };
+		OBJ_65 /* ARHeadsetUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ARHeadsetUtil::ARHeadsetUtil::Product" /* ARHeadsetUtil.framework */; };
+		OBJ_83 /* DL4SExperimentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* DL4SExperimentsTests.swift */; };
+		OBJ_85 /* DL4SExperiments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "DL4SExperiments::DL4SExperiments::Product" /* DL4SExperiments.framework */; };
+		OBJ_86 /* ARHeadsetUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ARHeadsetUtil::ARHeadsetUtil::Product" /* ARHeadsetUtil.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9849BAD8273F3ABD008F9EB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ARHeadsetUtil::ARHeadsetUtil";
+			remoteInfo = ARHeadsetUtil;
+		};
+		9849BAD9273F3ABD008F9EB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "DL4SExperiments::DL4SExperiments";
+			remoteInfo = DL4SExperiments;
+		};
+		9849BADA273F3ABD008F9EB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ARHeadsetUtil::ARHeadsetUtil";
+			remoteInfo = ARHeadsetUtil;
+		};
+		9849BADB273F3ABD008F9EB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "DL4SExperiments::DL4SExperimentsTests";
+			remoteInfo = DL4SExperimentsTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9849BAE3273F435D008F9EB9 /* SafeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeModule.swift; sourceTree = "<group>"; };
+		9849BAE6273FFBB1008F9EB9 /* SGEMV.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SGEMV.metal; sourceTree = "<group>"; };
+		9849BAF127404DFC008F9EB9 /* Activation.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Activation.metal; sourceTree = "<group>"; };
+		9849BAF327405D19008F9EB9 /* ActivationKernels.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ActivationKernels.metal; sourceTree = "<group>"; };
+		9849BAF527405D2E008F9EB9 /* Activation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.metal; path = Activation.h; sourceTree = "<group>"; };
+		985B2AD5274ECB89003F1785 /* RandomDistribution.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.metal; path = RandomDistribution.h; sourceTree = "<group>"; };
+		985B2AD6274EE36B003F1785 /* RandomTape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.metal; path = RandomTape.h; sourceTree = "<group>"; };
+		985B2AEC27503121003F1785 /* SGEMMSmall.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SGEMMSmall.metal; sourceTree = "<group>"; };
+		985B2AEE27503130003F1785 /* MMX.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.metal; path = MMX.h; sourceTree = "<group>"; };
+		985B2B0227511467003F1785 /* SGEMMCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGEMMCustom.swift; sourceTree = "<group>"; };
+		987CC855274E8DEE006D80AC /* PhiloxRNG.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.metal; path = PhiloxRNG.h; sourceTree = "<group>"; };
+		987CC856274EAB96006D80AC /* RandomTestPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTestPermutation.swift; sourceTree = "<group>"; };
+		98A53A2D274D81F30046C949 /* Conv.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Conv.metal; sourceTree = "<group>"; };
+		98A53A2F274D822A0046C949 /* MMXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMXTests.swift; sourceTree = "<group>"; };
+		98A53A31274D826A0046C949 /* ActivationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationTests.swift; sourceTree = "<group>"; };
+		98A53A32274D82A60046C949 /* ConvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvTests.swift; sourceTree = "<group>"; };
+		98A53A3D274E634A0046C949 /* MMXResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMXResources.swift; sourceTree = "<group>"; };
+		98A53A3F274E66800046C949 /* SGEMVCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGEMVCustom.swift; sourceTree = "<group>"; };
+		98A53A41274E67240046C949 /* MMXApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMXApple.swift; sourceTree = "<group>"; };
+		98A53A43274E68C40046C949 /* MMXTestPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMXTestPermutation.swift; sourceTree = "<group>"; };
+		98A53A45274E69050046C949 /* MMXFillBuffers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMXFillBuffers.swift; sourceTree = "<group>"; };
+		98A53A47274E6AF90046C949 /* ActivationResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationResources.swift; sourceTree = "<group>"; };
+		98A53A49274E6C090046C949 /* RandomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTests.swift; sourceTree = "<group>"; };
+		98C9B95127443158008D40EF /* BFloat16.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.metal; path = BFloat16.h; sourceTree = "<group>"; };
+		98C9B9542744322B008D40EF /* BFloat16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFloat16.swift; sourceTree = "<group>"; };
+		98EEA623274E759C00FF7A6C /* Random.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Random.metal; sourceTree = "<group>"; };
+		98EEA625274E75D900FF7A6C /* SwiftRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRandom.swift; sourceTree = "<group>"; };
+		98EEA627274E784500FF7A6C /* S4TF_Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S4TF_Random.swift; sourceTree = "<group>"; };
+		98EEA629274E810000FF7A6C /* RandomResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomResources.swift; sourceTree = "<group>"; };
+		98EEA62C274E822B00FF7A6C /* RandomApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomApple.swift; sourceTree = "<group>"; };
+		98EEA62E274E840B00FF7A6C /* RandomResourcesFillBuffers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomResourcesFillBuffers.swift; sourceTree = "<group>"; };
+		98EEA630274E8A4F00FF7A6C /* RandomCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCustom.swift; sourceTree = "<group>"; };
+		"ARHeadsetUtil::ARHeadsetUtil::Product" /* ARHeadsetUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ARHeadsetUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"DL4SExperiments::DL4SExperiments::Product" /* DL4SExperiments.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DL4SExperiments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"DL4SExperiments::DL4SExperimentsTests::Product" /* DL4SExperimentsTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DL4SExperimentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* DL4SExperiments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DL4SExperiments.swift; sourceTree = "<group>"; };
+		OBJ_13 /* DL4SExperimentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DL4SExperimentsTests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* ARHeadsetUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHeadsetUtil.swift; sourceTree = "<group>"; };
+		OBJ_19 /* CoreTextExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTextExtensions.swift; sourceTree = "<group>"; };
+		OBJ_20 /* DebuggingUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingUtilities.swift; sourceTree = "<group>"; };
+		OBJ_21 /* MemoryUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryUtilities.swift; sourceTree = "<group>"; };
+		OBJ_23 /* CoreVideoExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreVideoExtensions.swift; sourceTree = "<group>"; };
+		OBJ_24 /* MTLLayeredBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTLLayeredBuffer.swift; sourceTree = "<group>"; };
+		OBJ_25 /* MetalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalExtensions.swift; sourceTree = "<group>"; };
+		OBJ_26 /* SwiftUIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExtensions.swift; sourceTree = "<group>"; };
+		OBJ_28 /* MathUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtilities.swift; sourceTree = "<group>"; };
+		OBJ_29 /* simdExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simdExtensions.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/philipturner/Documents/DL4S Experimentation/DL4SExperiments/.build/checkouts/ARHeadsetUtil/Package.swift"; sourceTree = "<group>"; };
+		OBJ_35 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_65 /* ARHeadsetUtil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_85 /* DL4SExperiments.framework in Frameworks */,
+				OBJ_86 /* ARHeadsetUtil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9849BAE5273FFB9B008F9EB9 /* MMX */ = {
+			isa = PBXGroup;
+			children = (
+				985B2AEE27503130003F1785 /* MMX.h */,
+				985B2AEC27503121003F1785 /* SGEMMSmall.metal */,
+				9849BAE6273FFBB1008F9EB9 /* SGEMV.metal */,
+				98A53A3D274E634A0046C949 /* MMXResources.swift */,
+				98A53A41274E67240046C949 /* MMXApple.swift */,
+				98A53A43274E68C40046C949 /* MMXTestPermutation.swift */,
+				98A53A45274E69050046C949 /* MMXFillBuffers.swift */,
+				985B2B0227511467003F1785 /* SGEMMCustom.swift */,
+				98A53A3F274E66800046C949 /* SGEMVCustom.swift */,
+			);
+			path = MMX;
+			sourceTree = "<group>";
+		};
+		9849BAF027404DEC008F9EB9 /* Activation */ = {
+			isa = PBXGroup;
+			children = (
+				9849BAF327405D19008F9EB9 /* ActivationKernels.metal */,
+				9849BAF527405D2E008F9EB9 /* Activation.h */,
+				9849BAF127404DFC008F9EB9 /* Activation.metal */,
+				98A53A47274E6AF90046C949 /* ActivationResources.swift */,
+			);
+			path = Activation;
+			sourceTree = "<group>";
+		};
+		98A53A2C274D81BD0046C949 /* Conv */ = {
+			isa = PBXGroup;
+			children = (
+				98A53A2D274D81F30046C949 /* Conv.metal */,
+			);
+			path = Conv;
+			sourceTree = "<group>";
+		};
+		98A53A3C274E62AC0046C949 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				987CC855274E8DEE006D80AC /* PhiloxRNG.h */,
+				98EEA623274E759C00FF7A6C /* Random.metal */,
+				985B2AD5274ECB89003F1785 /* RandomDistribution.h */,
+				985B2AD6274EE36B003F1785 /* RandomTape.h */,
+				98EEA629274E810000FF7A6C /* RandomResources.swift */,
+				98EEA62C274E822B00FF7A6C /* RandomApple.swift */,
+				98EEA62E274E840B00FF7A6C /* RandomResourcesFillBuffers.swift */,
+				98EEA630274E8A4F00FF7A6C /* RandomCustom.swift */,
+				987CC856274EAB96006D80AC /* RandomTestPermutation.swift */,
+				98EEA625274E75D900FF7A6C /* SwiftRandom.swift */,
+				98EEA627274E784500FF7A6C /* S4TF_Random.swift */,
+			);
+			path = Random;
+			sourceTree = "<group>";
+		};
+		98C9B95027443144008D40EF /* BFloat16 */ = {
+			isa = PBXGroup;
+			children = (
+				98C9B95127443158008D40EF /* BFloat16.h */,
+				98C9B9542744322B008D40EF /* BFloat16.swift */,
+			);
+			path = BFloat16;
+			sourceTree = "<group>";
+		};
+		OBJ_11 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* DL4SExperimentsTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_12 /* DL4SExperimentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* DL4SExperimentsTests.swift */,
+				98A53A2F274D822A0046C949 /* MMXTests.swift */,
+				98A53A31274D826A0046C949 /* ActivationTests.swift */,
+				98A53A32274D82A60046C949 /* ConvTests.swift */,
+				98A53A49274E6C090046C949 /* RandomTests.swift */,
+			);
+			name = DL4SExperimentsTests;
+			path = Tests/DL4SExperimentsTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_15 /* ARHeadsetUtil */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_15 /* ARHeadsetUtil */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* ARHeadsetUtil */,
+				OBJ_30 /* Package.swift */,
+			);
+			name = ARHeadsetUtil;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* ARHeadsetUtil */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* ARHeadsetUtil.swift */,
+				OBJ_18 /* Core Text */,
+				OBJ_20 /* DebuggingUtilities.swift */,
+				OBJ_21 /* MemoryUtilities.swift */,
+				OBJ_22 /* Metal */,
+				OBJ_26 /* SwiftUIExtensions.swift */,
+				OBJ_27 /* simd */,
+			);
+			name = ARHeadsetUtil;
+			path = .build/checkouts/ARHeadsetUtil/Sources/ARHeadsetUtil;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* Core Text */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* CoreTextExtensions.swift */,
+			);
+			path = "Core Text";
+			sourceTree = "<group>";
+		};
+		OBJ_22 /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* CoreVideoExtensions.swift */,
+				OBJ_24 /* MTLLayeredBuffer.swift */,
+				OBJ_25 /* MetalExtensions.swift */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		OBJ_27 /* simd */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_28 /* MathUtilities.swift */,
+				OBJ_29 /* simdExtensions.swift */,
+			);
+			path = simd;
+			sourceTree = "<group>";
+		};
+		OBJ_31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"ARHeadsetUtil::ARHeadsetUtil::Product" /* ARHeadsetUtil.framework */,
+				"DL4SExperiments::DL4SExperiments::Product" /* DL4SExperiments.framework */,
+				"DL4SExperiments::DL4SExperimentsTests::Product" /* DL4SExperimentsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_11 /* Tests */,
+				OBJ_14 /* Dependencies */,
+				OBJ_31 /* Products */,
+				OBJ_35 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* DL4SExperiments */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* DL4SExperiments */ = {
+			isa = PBXGroup;
+			children = (
+				98A53A2C274D81BD0046C949 /* Conv */,
+				9849BAF027404DEC008F9EB9 /* Activation */,
+				98C9B95027443144008D40EF /* BFloat16 */,
+				98A53A3C274E62AC0046C949 /* Random */,
+				9849BAE5273FFB9B008F9EB9 /* MMX */,
+				OBJ_10 /* DL4SExperiments.swift */,
+				9849BAE3273F435D008F9EB9 /* SafeModule.swift */,
+			);
+			name = DL4SExperiments;
+			path = Sources/DL4SExperiments;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"ARHeadsetUtil::ARHeadsetUtil" /* ARHeadsetUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "ARHeadsetUtil" */;
+			buildPhases = (
+				OBJ_40 /* Sources */,
+				OBJ_51 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARHeadsetUtil;
+			productName = ARHeadsetUtil;
+			productReference = "ARHeadsetUtil::ARHeadsetUtil::Product" /* ARHeadsetUtil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"ARHeadsetUtil::SwiftPMPackageDescription" /* ARHeadsetUtilPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_53 /* Build configuration list for PBXNativeTarget "ARHeadsetUtilPackageDescription" */;
+			buildPhases = (
+				OBJ_56 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARHeadsetUtilPackageDescription;
+			productName = ARHeadsetUtilPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"DL4SExperiments::DL4SExperiments" /* DL4SExperiments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_59 /* Build configuration list for PBXNativeTarget "DL4SExperiments" */;
+			buildPhases = (
+				OBJ_62 /* Sources */,
+				OBJ_64 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_66 /* PBXTargetDependency */,
+			);
+			name = DL4SExperiments;
+			productName = DL4SExperiments;
+			productReference = "DL4SExperiments::DL4SExperiments::Product" /* DL4SExperiments.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"DL4SExperiments::DL4SExperimentsTests" /* DL4SExperimentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_79 /* Build configuration list for PBXNativeTarget "DL4SExperimentsTests" */;
+			buildPhases = (
+				OBJ_82 /* Sources */,
+				OBJ_84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_87 /* PBXTargetDependency */,
+				OBJ_88 /* PBXTargetDependency */,
+			);
+			name = DL4SExperimentsTests;
+			productName = DL4SExperimentsTests;
+			productReference = "DL4SExperiments::DL4SExperimentsTests::Product" /* DL4SExperimentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"DL4SExperiments::SwiftPMPackageDescription" /* DL4SExperimentsPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_68 /* Build configuration list for PBXNativeTarget "DL4SExperimentsPackageDescription" */;
+			buildPhases = (
+				OBJ_71 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DL4SExperimentsPackageDescription;
+			productName = DL4SExperimentsPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "DL4SExperiments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"ARHeadsetUtil::ARHeadsetUtil" /* ARHeadsetUtil */,
+				"ARHeadsetUtil::SwiftPMPackageDescription" /* ARHeadsetUtilPackageDescription */,
+				"DL4SExperiments::DL4SExperiments" /* DL4SExperiments */,
+				"DL4SExperiments::SwiftPMPackageDescription" /* DL4SExperimentsPackageDescription */,
+				"DL4SExperiments::DL4SExperimentsPackageTests::ProductTarget" /* DL4SExperimentsPackageTests */,
+				"DL4SExperiments::DL4SExperimentsTests" /* DL4SExperimentsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_41 /* ARHeadsetUtil.swift in Sources */,
+				OBJ_42 /* CoreTextExtensions.swift in Sources */,
+				OBJ_43 /* DebuggingUtilities.swift in Sources */,
+				OBJ_44 /* MemoryUtilities.swift in Sources */,
+				OBJ_45 /* CoreVideoExtensions.swift in Sources */,
+				OBJ_46 /* MTLLayeredBuffer.swift in Sources */,
+				OBJ_47 /* MetalExtensions.swift in Sources */,
+				OBJ_48 /* SwiftUIExtensions.swift in Sources */,
+				OBJ_49 /* MathUtilities.swift in Sources */,
+				OBJ_50 /* simdExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_57 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				98A53A2E274D81F30046C949 /* Conv.metal in Sources */,
+				98EEA628274E784500FF7A6C /* S4TF_Random.swift in Sources */,
+				98A53A48274E6AF90046C949 /* ActivationResources.swift in Sources */,
+				9849BAE7273FFBB1008F9EB9 /* SGEMV.metal in Sources */,
+				98EEA62A274E810000FF7A6C /* RandomResources.swift in Sources */,
+				98A53A3E274E634A0046C949 /* MMXResources.swift in Sources */,
+				98EEA62F274E840B00FF7A6C /* RandomResourcesFillBuffers.swift in Sources */,
+				9849BAF427405D19008F9EB9 /* ActivationKernels.metal in Sources */,
+				987CC857274EAB96006D80AC /* RandomTestPermutation.swift in Sources */,
+				98EEA62D274E822B00FF7A6C /* RandomApple.swift in Sources */,
+				98EEA631274E8A4F00FF7A6C /* RandomCustom.swift in Sources */,
+				985B2B0327511467003F1785 /* SGEMMCustom.swift in Sources */,
+				98A53A46274E69050046C949 /* MMXFillBuffers.swift in Sources */,
+				98EEA624274E759D00FF7A6C /* Random.metal in Sources */,
+				9849BAF227404DFC008F9EB9 /* Activation.metal in Sources */,
+				98EEA626274E75D900FF7A6C /* SwiftRandom.swift in Sources */,
+				98C9B9552744322B008D40EF /* BFloat16.swift in Sources */,
+				98A53A40274E66800046C949 /* SGEMVCustom.swift in Sources */,
+				OBJ_63 /* DL4SExperiments.swift in Sources */,
+				9849BAE4273F435D008F9EB9 /* SafeModule.swift in Sources */,
+				98A53A42274E67240046C949 /* MMXApple.swift in Sources */,
+				98A53A44274E68C40046C949 /* MMXTestPermutation.swift in Sources */,
+				985B2AED27503121003F1785 /* SGEMMSmall.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				98EEA62B274E81B800FF7A6C /* RandomTests.swift in Sources */,
+				98A53A30274D82300046C949 /* MMXTests.swift in Sources */,
+				98A53A34274D82AC0046C949 /* ActivationTests.swift in Sources */,
+				98A53A33274D82A60046C949 /* ConvTests.swift in Sources */,
+				OBJ_83 /* DL4SExperimentsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ARHeadsetUtil::ARHeadsetUtil" /* ARHeadsetUtil */;
+			targetProxy = 9849BAD8273F3ABD008F9EB9 /* PBXContainerItemProxy */;
+		};
+		OBJ_77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "DL4SExperiments::DL4SExperimentsTests" /* DL4SExperimentsTests */;
+			targetProxy = 9849BADB273F3ABD008F9EB9 /* PBXContainerItemProxy */;
+		};
+		OBJ_87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "DL4SExperiments::DL4SExperiments" /* DL4SExperiments */;
+			targetProxy = 9849BAD9273F3ABD008F9EB9 /* PBXContainerItemProxy */;
+		};
+		OBJ_88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ARHeadsetUtil::ARHeadsetUtil" /* ARHeadsetUtil */;
+			targetProxy = 9849BADA273F3ABD008F9EB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DL4SExperiments.xcodeproj/ARHeadsetUtil_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ARHeadsetUtil;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ARHeadsetUtil;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DL4SExperiments.xcodeproj/ARHeadsetUtil_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ARHeadsetUtil;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ARHeadsetUtil;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DL4SExperiments.xcodeproj/DL4SExperiments_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -enable-testing";
+				PRODUCT_BUNDLE_IDENTIFIER = DL4SExperiments;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = DL4SExperiments;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		OBJ_61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DL4SExperiments.xcodeproj/DL4SExperiments_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -enable-testing";
+				PRODUCT_BUNDLE_IDENTIFIER = DL4SExperiments;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = DL4SExperiments;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		OBJ_69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -package-description-version 5.5.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DL4SExperiments.xcodeproj/DL4SExperimentsTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = DL4SExperimentsTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DL4SExperiments.xcodeproj/DL4SExperimentsTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = DL4SExperimentsTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "DL4SExperiments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_37 /* Build configuration list for PBXNativeTarget "ARHeadsetUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_38 /* Debug */,
+				OBJ_39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_53 /* Build configuration list for PBXNativeTarget "ARHeadsetUtilPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_54 /* Debug */,
+				OBJ_55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_59 /* Build configuration list for PBXNativeTarget "DL4SExperiments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_60 /* Debug */,
+				OBJ_61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_68 /* Build configuration list for PBXNativeTarget "DL4SExperimentsPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_69 /* Debug */,
+				OBJ_70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_74 /* Build configuration list for PBXAggregateTarget "DL4SExperimentsPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_75 /* Debug */,
+				OBJ_76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_79 /* Build configuration list for PBXNativeTarget "DL4SExperimentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_80 /* Debug */,
+				OBJ_81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

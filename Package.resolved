@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ARHeadsetUtil",
+        "repositoryURL": "https://github.com/philipturner/ARHeadsetUtil",
+        "state": {
+          "branch": "main",
+          "revision": "bcc1b82a759a732a87ec2873a20fe1a6f8754e4e",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
