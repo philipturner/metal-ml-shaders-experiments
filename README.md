@@ -1,3 +1,3 @@
 # Metal ML Shaders Experiments
 
-A description of this package.
+A public version of an attempt to outperform Metal Performance Shaders, conducted during November 2021.
